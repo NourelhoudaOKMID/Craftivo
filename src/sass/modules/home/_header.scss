@@ -1,11 +1,7 @@
-.hover-a:hover{
-    color: red;
-}
-
-.card
-    &
-            :hover {
-  background-color: #2882dc;
-  transform: translateY(-5px);
-  transition: 0.3s ease;
+    
+img {
+    height: 600px;
+    background-image: url("./public/images/profile/profile-bg-5.webp");
+    background-size: cover;
+    background-position: center  top ;
 }
