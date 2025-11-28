@@ -1,0 +1,36 @@
+.logo{
+    color: $white-color;
+    
+}
+
+.links a  {
+    color: $white-color;
+    &:hover{
+        color: $red-color!important;
+    }
+}
+.dropdown-menu a{
+    color: $black-list;
+}
+.nav-link{
+    color: $white-color;
+}
+.hero  {
+
+    background-image: url(../../public/images/profile/profile-bg-5.webp);
+    background-size: cover;
+
+}
+.hero h1{
+    color: $white-color;
+    text-decoration: center;
+}
+.icons i {
+    color: $white-color;
+    background-color: $gray-color;
+    &:hover{
+        color: $red-color;
+    }
+
+}
+

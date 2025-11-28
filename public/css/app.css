@@ -4,6 +4,7 @@
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11859,80 +11860,41 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.footer {
-  width: 99vw;
-  height: 100vh;
-}
-
-.footer-top {
-  width: 100%;
-  height: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #464646;
-}
-
-.footer-input {
-  width: 700px;
-  position: relative;
-  padding-top: 10px;
-}
-
-.footer-input:hover button {
-  background-color: #e96b56;
-  border-color: #e96b56;
-}
-
-.input:focus {
-  outline: none;
-  border-color: #e96b56;
-  color: aliceblue;
-  padding-left: 20px;
-}
-
-.footer-input input {
-  width: 90%;
-  height: 40px;
-  border-radius: 20px;
-  border-color: rgba(128, 128, 128, 0.011);
-  background-color: #565656;
-}
-
-.footer-input button {
-  width: 120px;
-  height: 40px;
-  border: none;
-  border-radius: 20px;
-  background-color: #fd7e14;
-  color: rgb(255, 255, 255);
-  position: absolute;
-  right: 0px;
-}
-
-.footer-top p {
-  color: rgba(255, 255, 255, 0.8823529412);
-  width: 550px;
-  text-align-last: center;
-}
-
-.footer-top h2, .footer-top .h2 {
+.logo {
   color: white;
-  padding-bottom: 10px;
 }
 
-.footer-bottom {
-  width: 100%;
-  height: 70%;
-  background-color: #3C3C3C;
+.links a {
+  color: white;
+}
+.links a:hover {
+  color: #f05656 !important;
 }
 
-img {
-  height: 600px;
-  background-image: url("./public/images/profile/profile-bg-5.webp");
+.dropdown-menu a {
+  color: rgba(0, 0, 0, 0.8745098039);
+}
+
+.nav-link {
+  color: white;
+}
+
+.hero {
+  background-image: url(../../public/images/profile/profile-bg-5.webp);
   background-size: cover;
-  background-position: center top;
+}
+
+.hero h1, .hero .h1 {
+  color: white;
+  text-decoration: center;
+}
+
+.icons i {
+  color: white;
+  background-color: rgba(91, 88, 88, 0.486);
+}
+.icons i:hover {
+  color: #f05656;
 }
 
 /*# sourceMappingURL=app.css.map */
