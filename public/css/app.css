@@ -11897,4 +11897,22 @@ textarea.form-control-lg {
   color: #f05656;
 }
 
+.container-about h1, .container-about .h1 {
+  color: #f05656;
+}
+
+.container-about {
+  background-color: #141414;
+}
+
+h4, .h4 {
+  color: #f05656;
+  padding-bottom: 1rem;
+  border-bottom: 1px #f05656 solid;
+}
+
+.container-about p {
+  color: #a3a8a8;
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -34,4 +34,19 @@
     }
 
 }
+.container-about h1 {
+    color:$red-color;
+
+}
+.container-about {
+    background-color: $gray-degre;
+}
+h4{
+    color: $red-color;
+    padding-bottom: 1rem ;
+    border-bottom: 1px $red-color solid;
+}
+.container-about p {
+    color: $para-color;
+}
 
